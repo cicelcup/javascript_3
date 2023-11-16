@@ -105,3 +105,7 @@ for (const value of setExample) {
     console.log("Hola desde la IIFE 23");
 })();
 
+((name) => {
+    console.log("Hola desde la IIFE 23 " + name);
+})("Augusto");
+

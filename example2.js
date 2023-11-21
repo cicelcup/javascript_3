@@ -25,9 +25,5 @@ function clickEnBoton(callback, input) {
     }
 }
 
-//clickEnBoton(abrirVentana)
-//clickEnBoton(cerrarVentana)
-//clickEnBoton(consultarApi)
-
 clickEnBoton(consultarApi, true)
 clickEnBoton(consultarApi, false)
